@@ -257,7 +257,7 @@ h3{font-size:clamp(20px,4.6vw,30px);color:var(--game-primary)}
     <p class="skorText">Гимнастка гнётся, гнётся,<br>старается, смеётся!</p>
     <p class="sub" style="margin:0">Повтори три раза!<br>Сначала медленно, потом быстрее.</p>
     <div class="videoBox wide">
-      <video id="skorVid" width="960" height="540" playsinline preload="none" onclick="playSkor()" onended="document.getElementById('skorNext').classList.remove('hidden')" onerror="document.getElementById('skorNext').classList.remove('hidden')">
+      <video id="skorVid" width="960" height="540" playsinline preload="auto" onclick="playSkor()" onended="document.getElementById('skorNext').classList.remove('hidden')" onerror="document.getElementById('skorNext').classList.remove('hidden')">
         <source src="video/skorogovorka.mp4" type="video/mp4">
       </video>
     </div>
